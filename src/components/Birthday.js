@@ -63,8 +63,9 @@ export default function Birthday() {
   };
 
   return (
+    <div>
+    <h1>Birthday Records</h1>
     <FormControl component="fieldset">
-      <h1>Birthday Records</h1>
       <RadioGroup aria-label="position" name="sorter" value={itemChecked} onChange={handleChange} row>
         <FormControlLabel
           value="name"
@@ -100,5 +101,6 @@ export default function Birthday() {
                 </Table>
             </Paper>
     </FormControl>
+    </div>
   );
 }
