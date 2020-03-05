@@ -16,31 +16,31 @@ export default function Birthday() {
   const [itemChecked, setItemChecked] = useState('name')
   // Set our People state variable
   const [people, setPeople] = useState([
-              {
-                  name: "Veronica Mize",
-                  dob: "11/29/2011"
+            {
+                  name: "Alexander Alfred",
+                  dob: "02/09/1891"
               }, {
                   name: "Cecilia Olsson",
                   dob: "09/16/1992"
-              }, {
-                  name: "Peter Parker",
-                  dob: "01/16/1992"
-              }, {
-                  name: "Jimmy Shergil",
-                  dob: "12/12/2001"
-              }, {
-                  name: "Alexander Alfred",
-                  dob: "02/09/1891"
+              },  {
+                  name: "Deborah T. Decker",
+                  dob: "10/31/1999"
               }, {
                   name: "Janice Shroyer",
                   dob: "12/01/1982"
               }, {
+                  name: "Jimmy Shergil",
+                  dob: "12/12/2001"
+              }, {
+                  name: "Peter Parker",
+                  dob: "01/16/1992"
+              },  {
                   name: "Ralph White",
                   dob: "11/30/2011"
-              }, {
-                  name: "Deborah T. Decker",
-                  dob: "10/31/1999"
-              }
+              },   {
+                    name: "Veronica Mize",
+                    dob: "11/29/2011"
+                }
           ]);
   // Set our Radio Form HandleChange Functions
   const handleChange = event => {
